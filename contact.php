@@ -74,7 +74,7 @@ include 'header.php'
                 <nav class="navbar" id="nav">
                     <div class="container">
                         <div class="header-navibox-1">
-                            <a class="navbar-brand scroll" href="services.php">
+                            <a class="navbar-brand scroll" href="index.php">
                                 <img class="normal-logo" src="assets/media/general/lebawi_light.png" alt="logo" />
                                 <img class="scroll-logo hidden-xs" src="assets/media/general/lebawi_dark.png" alt="logo" />
                             </a>
@@ -175,7 +175,7 @@ include 'header.php'
                     <div class="row">
                         <div class="col-xs-12">
                             <div id="success"></div>
-                            <form class="b-form-contacts ui-form" id="contactForm" action="#" method="post">
+                            <form class="b-form-contacts ui-form" id="contactForm" action='include/contacts.php' method='post'>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <input class="form-control" id="user-name" type="text" name="user-name" placeholder="Full Name" required="required" />
@@ -190,7 +190,7 @@ include 'header.php'
                                     <div class="col-xs-12">
                                         <textarea class="form-control" id="user-message" rows="3" placeholder="Message Details" required="required"></textarea>
                                         <div class="text-center"><span class="b-btn"><span class="ui-decor-line"></span>
-                                                <button class="b-btn__inner"><i class="ui-decor"></i>Send Message<i class="ui-decor"></i>
+                                                <button class="b-btn__inner" type="submit" name="contact_submit"><i class="ui-decor"></i>Send Message<i class="ui-decor"></i>
                                                 </button>
                                             </span>
                                         </div>

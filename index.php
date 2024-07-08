@@ -103,7 +103,7 @@ include 'header.php';
           <nav class="navbar" id="nav">
             <div class="container">
               <div class="header-navibox-1">
-                <a class="navbar-brand scroll" href="services.php">
+                <a class="navbar-brand scroll" href="index.php">
                   <img
                     class="normal-logo"
                     src="assets/media/general/lebawi_light.png"
